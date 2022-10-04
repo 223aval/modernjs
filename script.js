@@ -1,8 +1,4 @@
-const password = 'p@ss';
+const calcArea = radius => 3.14 * radius**2;
 
-if (password.length >= 8){
-  console.log('that password is long enough!');
-} else {
-  console.log('password is not long enough');
-}
-
+const area = calcArea(5);
+console.log(area);
