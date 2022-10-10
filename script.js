@@ -1,2 +1,3 @@
-console.log(Math);
-console.log(Math.PI);
+const para = document.querySelector('p')
+
+console.log
